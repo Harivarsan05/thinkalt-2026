@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="aiGrad" x1="0" x2="1">
+      <stop offset="0%" stop-color="#eef2ff"/>
+      <stop offset="100%" stop-color="#e9d5ff"/>
+    </linearGradient>
+  </defs>
+  <rect width="100%" height="100%" fill="url(#aiGrad)" />
+
+  <!-- abstract AI brain / circuit -->
+  <g transform="translate(220,60) scale(1.0)">
+    <rect x="0" y="0" width="1160" height="760" rx="18" fill="#ffffff" opacity="0.06"/>
+
+    <!-- circuit nodes -->
+    <g stroke="#7c3aed" stroke-width="4" fill="none" stroke-linecap="round">
+      <path d="M360 180 C420 120, 560 120, 640 180 C720 240, 760 320, 700 380" stroke-opacity="0.9" />
+      <path d="M460 260 C520 200, 640 200, 700 260" stroke-opacity="0.7" />
+    </g>
+
+    <!-- nodes -->
+    <g fill="#7c3aed">
+      <circle cx="360" cy="180" r="12"/>
+      <circle cx="520" cy="160" r="10"/>
+      <circle cx="640" cy="180" r="14"/>
+      <circle cx="700" cy="260" r="12"/>
+      <circle cx="760" cy="320" r="10"/>
+    </g>
+
+    <!-- stylized brain shape -->
+    <path d="M900 200 C980 180, 1100 180, 1180 260 C1260 340, 1260 460, 1180 540 C1100 620, 950 640, 840 600 C760 570, 740 460, 780 400 C820 340, 880 260, 900 200 Z"
+          fill="#7c3aed" opacity="0.06" />
+
+    <!-- center title -->
+    <text x="580" y="420" font-family="Inter, Arial, sans-serif" font-size="40" fill="#2b1b4b" font-weight="700">AI: App Maintenance</text>
+  </g>
+</svg>
